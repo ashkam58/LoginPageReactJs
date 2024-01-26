@@ -1,11 +1,14 @@
 .container{
-    
+    border: 5px solid;
     display: flex;
     flex-direction: column;
     background:white;
     margin: auto;
-    margin-top: 200px;
     padding-bottom: 30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
 }
 
 .header{
@@ -38,14 +41,29 @@
 }
 
 .input{
-    border: 5px solid;
+    align-items: center;
     display: flex;
     margin: auto;
-    
+    background-color: #eaeaea;
+    width: 480px;
+    border-radius: 6px;
+    height: 80px;
+
 }
 
 
+.input img{
+    margin: 0px 30px;
+}
 
+.input input{
+    border: none;
+    margin: 20px;
+    height: 50px;
+    width: 80px;
+    outline: none;
+    background:transparent;
+}
 
 
 
